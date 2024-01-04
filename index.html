@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    </head>
+    <body>
+        <a-scene background="color: #fd4682">
+           
+                <a-box
+                id="wall-poster"
+                src="./assets/wall-poster.jpeg"
+                position="0 5 -15"
+                rotation="0 0 0"
+                width="20"
+                height="15"
+                ></a-box>
+                <a-plane
+                id="floor"
+                src="./assets/floor.jpeg"
+                position="0 0 -5"
+                rotation="-90 0 0"
+                width="15"
+                height="20"
+                ></a-plane>
+                <a-cylinder
+                id="chair"
+                src="./assets/chair.jpeg"
+                radius="1.2"
+                position="4 2 -7"
+                ></a-cylinder>
+                <a-cylinder
+                id="chair2"
+                src="./assets/chair.jpeg"
+                radius="1.2"
+                position="-3 2 -7"
+                ></a-cylinder>
+                <a-box
+                position="4 1.2 -7"
+                height="2.5"
+                width="0.9"
+                ></a-box>
+                <a-box
+                position="-3 1.2 -7"
+                height="2.5"
+                width="0.9"
+                ></a-box>
+        </a-scene>
+    </body>
+</html>
